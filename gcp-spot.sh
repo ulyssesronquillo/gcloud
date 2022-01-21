@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# provision gcp spot instance
+# provision gcp spot instances
 
 gcloud beta compute instances create spot-example \
 --provisioning-model=SPOT \
